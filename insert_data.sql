@@ -87,3 +87,10 @@ INSERT INTO tratamento_dispositivo (id_tratamento, id_dispositivo, observacoes, 
 (3, 3, 'Monitoramento contínuo', 40),
 (4, 4, 'Aplicação complementar', 15),
 (5, 5, 'Uso conforme protocolo', 35);
+
+INSERT INTO visitante (nome, email, telefone, cpf, data_nascimento)
+VALUES ('Visitante Temporário', 'temp@temp.com', '00000000000', '00000000000', '2000-01-01');
+
+INSERT INTO dispositivo (nome, tipo, descricao, fabricante, modelo)
+VALUES ('DeviceTemp', 'Teste', 'Desc temporária', 'FabricanteX', 'ModelX');
+
